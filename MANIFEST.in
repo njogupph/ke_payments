@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ke_payments *.css
+recursive-include ke_payments *.csv
+recursive-include ke_payments *.html
+recursive-include ke_payments *.ico
+recursive-include ke_payments *.js
+recursive-include ke_payments *.json
+recursive-include ke_payments *.md
+recursive-include ke_payments *.png
+recursive-include ke_payments *.py
+recursive-include ke_payments *.svg
+recursive-include ke_payments *.txt
+recursive-exclude ke_payments *.pyc
